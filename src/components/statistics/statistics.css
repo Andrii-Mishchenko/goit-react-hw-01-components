@@ -1,0 +1,30 @@
+.statistics {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+}
+
+/* .statistics-item */
+.title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.stat-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistics-item {
+    display: block;
+    width: calc(100%/5);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid lightgray;
+}

@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding-top: 30px;
     margin-bottom: 30px;
-    box-shadow:  5px 6px 8px -2px rgba(148,148,148,1);
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
 }
 .description{
  text-align: center;
@@ -33,11 +33,14 @@ width: 100%;
     border:  1px solid rgba(211, 211, 211, 0.712);
 }
 .stats-item {
+    display: block;
     width: calc(100%/3);
-    height: 60px;
+    height: 100%;
     padding: 10px;
     align-items: center;
-    border: 1px solid rgba(211, 211, 211, 0.712);
+    border: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .label,
