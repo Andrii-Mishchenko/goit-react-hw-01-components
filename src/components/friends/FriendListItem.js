@@ -14,7 +14,7 @@ const FriendListItem =({avatar, name, isOnline, id})=> {
 
     return (
         <li className="item" key={id}>
-            <span className={statusClasses.join(' ')}></span>
+            <span className={statusClasses.join(' ')}/>
             <img className="avatar" src={avatar} alt={name} width="48" />
             <p className="name">{name}</p>
         </li>
